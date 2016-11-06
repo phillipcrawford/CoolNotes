@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F007D5861DCFAF1100E4BB80 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007D5851DCFAF1100E4BB80 /* CoreDataStack.swift */; };
 		F03693921DCF780500B5CF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03693911DCF780500B5CF88 /* AppDelegate.swift */; };
 		F03693941DCF780500B5CF88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03693931DCF780500B5CF88 /* ViewController.swift */; };
 		F03693971DCF780500B5CF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03693951DCF780500B5CF88 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		F036939C1DCF780500B5CF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F036939A1DCF780500B5CF88 /* LaunchScreen.storyboard */; };
 		F03693A71DCF780600B5CF88 /* CoolNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03693A61DCF780600B5CF88 /* CoolNotesTests.swift */; };
 		F03693B21DCF780600B5CF88 /* CoolNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03693B11DCF780600B5CF88 /* CoolNotesUITests.swift */; };
+		F03693C11DCF783600B5CF88 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F03693BF1DCF783600B5CF88 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F007D5851DCFAF1100E4BB80 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		F036938E1DCF780500B5CF88 /* CoolNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03693911DCF780500B5CF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F03693931DCF780500B5CF88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		F03693AD1DCF780600B5CF88 /* CoolNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03693B11DCF780600B5CF88 /* CoolNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolNotesUITests.swift; sourceTree = "<group>"; };
 		F03693B31DCF780600B5CF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03693C01DCF783600B5CF88 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F007D5841DCFAED800E4BB80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F007D5851DCFAF1100E4BB80 /* CoreDataStack.swift */,
+				F03693BF1DCF783600B5CF88 /* Model.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		F03693851DCF780500B5CF88 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 			children = (
 				F03693911DCF780500B5CF88 /* AppDelegate.swift */,
 				F03693931DCF780500B5CF88 /* ViewController.swift */,
+				F007D5841DCFAED800E4BB80 /* Model */,
 				F03693951DCF780500B5CF88 /* Main.storyboard */,
 				F03693981DCF780500B5CF88 /* Assets.xcassets */,
 				F036939A1DCF780500B5CF88 /* LaunchScreen.storyboard */,
@@ -261,6 +275,8 @@
 			files = (
 				F03693941DCF780500B5CF88 /* ViewController.swift in Sources */,
 				F03693921DCF780500B5CF88 /* AppDelegate.swift in Sources */,
+				F03693C11DCF783600B5CF88 /* Model.xcdatamodeld in Sources */,
+				F007D5861DCFAF1100E4BB80 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +519,7 @@
 				F03693B81DCF780600B5CF88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F03693B91DCF780600B5CF88 /* Build configuration list for PBXNativeTarget "CoolNotesTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +528,7 @@
 				F03693BB1DCF780600B5CF88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F03693BC1DCF780600B5CF88 /* Build configuration list for PBXNativeTarget "CoolNotesUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,8 +537,23 @@
 				F03693BE1DCF780600B5CF88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F03693BF1DCF783600B5CF88 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F03693C01DCF783600B5CF88 /* Model.xcdatamodel */,
+			);
+			currentVersion = F03693C01DCF783600B5CF88 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F03693861DCF780500B5CF88 /* Project object */;
 }
