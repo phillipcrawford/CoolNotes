@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F007D5861DCFAF1100E4BB80 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007D5851DCFAF1100E4BB80 /* CoreDataStack.swift */; };
+		F007D5C71DCFEF6200E4BB80 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007D5C31DCFEF6200E4BB80 /* Note+CoreDataClass.swift */; };
+		F007D5C81DCFEF6200E4BB80 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007D5C41DCFEF6200E4BB80 /* Note+CoreDataProperties.swift */; };
+		F007D5C91DCFEF6200E4BB80 /* Notebook+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007D5C51DCFEF6200E4BB80 /* Notebook+CoreDataClass.swift */; };
+		F007D5CA1DCFEF6200E4BB80 /* Notebook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007D5C61DCFEF6200E4BB80 /* Notebook+CoreDataProperties.swift */; };
 		F03693921DCF780500B5CF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03693911DCF780500B5CF88 /* AppDelegate.swift */; };
 		F03693941DCF780500B5CF88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03693931DCF780500B5CF88 /* ViewController.swift */; };
 		F03693971DCF780500B5CF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03693951DCF780500B5CF88 /* Main.storyboard */; };
@@ -37,6 +41,10 @@
 
 /* Begin PBXFileReference section */
 		F007D5851DCFAF1100E4BB80 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		F007D5C31DCFEF6200E4BB80 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataClass.swift"; path = "../Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F007D5C41DCFEF6200E4BB80 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "../Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F007D5C51DCFEF6200E4BB80 /* Notebook+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataClass.swift"; path = "../Notebook+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F007D5C61DCFEF6200E4BB80 /* Notebook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataProperties.swift"; path = "../Notebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F036938E1DCF780500B5CF88 /* CoolNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03693911DCF780500B5CF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F03693931DCF780500B5CF88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +91,10 @@
 			children = (
 				F007D5851DCFAF1100E4BB80 /* CoreDataStack.swift */,
 				F03693BF1DCF783600B5CF88 /* Model.xcdatamodeld */,
+				F007D5C31DCFEF6200E4BB80 /* Note+CoreDataClass.swift */,
+				F007D5C41DCFEF6200E4BB80 /* Note+CoreDataProperties.swift */,
+				F007D5C51DCFEF6200E4BB80 /* Notebook+CoreDataClass.swift */,
+				F007D5C61DCFEF6200E4BB80 /* Notebook+CoreDataProperties.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -207,15 +219,18 @@
 				TargetAttributes = {
 					F036938D1DCF780500B5CF88 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					F03693A11DCF780600B5CF88 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = F036938D1DCF780500B5CF88;
 					};
 					F03693AC1DCF780600B5CF88 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = F036938D1DCF780500B5CF88;
 					};
@@ -273,10 +288,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F007D5CA1DCFEF6200E4BB80 /* Notebook+CoreDataProperties.swift in Sources */,
 				F03693941DCF780500B5CF88 /* ViewController.swift in Sources */,
 				F03693921DCF780500B5CF88 /* AppDelegate.swift in Sources */,
+				F007D5C71DCFEF6200E4BB80 /* Note+CoreDataClass.swift in Sources */,
 				F03693C11DCF783600B5CF88 /* Model.xcdatamodeld in Sources */,
+				F007D5C91DCFEF6200E4BB80 /* Notebook+CoreDataClass.swift in Sources */,
 				F007D5861DCFAF1100E4BB80 /* CoreDataStack.swift in Sources */,
+				F007D5C81DCFEF6200E4BB80 /* Note+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
