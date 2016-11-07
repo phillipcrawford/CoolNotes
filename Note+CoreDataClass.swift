@@ -21,13 +21,13 @@ public class Note: NSManagedObject {
             fatalError("Unable to find Entity name!")
         }
     }
-    var humanReadableAge : String{
-        get{
-            let fmt = DateFormatter()
-            fmt.timeStyle = .NoStyle
-            fmt.dateStyle = .ShortStyle
-            fmt.doesRelativeDateFormatting = true
-            fmt.locale = NSLocale.current
-        }
-    }
+//    var humanReadableAge : String{
+//        get{
+//            let fmt = DateFormatter()
+//            fmt.timeStyle = .NoStyle
+//            fmt.dateStyle = .ShortStyle
+//            fmt.doesRelativeDateFormatting = true
+//            fmt.locale = NSLocale.current
+//        }
+//    }
 }

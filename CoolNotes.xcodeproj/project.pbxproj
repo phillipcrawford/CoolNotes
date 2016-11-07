@@ -12,6 +12,7 @@
 		F007D5C81DCFEF6200E4BB80 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007D5C41DCFEF6200E4BB80 /* Note+CoreDataProperties.swift */; };
 		F007D5C91DCFEF6200E4BB80 /* Notebook+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007D5C51DCFEF6200E4BB80 /* Notebook+CoreDataClass.swift */; };
 		F007D5CA1DCFEF6200E4BB80 /* Notebook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007D5C61DCFEF6200E4BB80 /* Notebook+CoreDataProperties.swift */; };
+		F007D5CD1DD0F8BA00E4BB80 /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007D5CC1DD0F8BA00E4BB80 /* CoreDataTableViewController.swift */; };
 		F03693921DCF780500B5CF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03693911DCF780500B5CF88 /* AppDelegate.swift */; };
 		F03693941DCF780500B5CF88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03693931DCF780500B5CF88 /* ViewController.swift */; };
 		F03693971DCF780500B5CF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03693951DCF780500B5CF88 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		F007D5C41DCFEF6200E4BB80 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "../Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F007D5C51DCFEF6200E4BB80 /* Notebook+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataClass.swift"; path = "../Notebook+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F007D5C61DCFEF6200E4BB80 /* Notebook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notebook+CoreDataProperties.swift"; path = "../Notebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F007D5CC1DD0F8BA00E4BB80 /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
 		F036938E1DCF780500B5CF88 /* CoolNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03693911DCF780500B5CF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F03693931DCF780500B5CF88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		F007D5CB1DD0F56900E4BB80 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F007D5CC1DD0F8BA00E4BB80 /* CoreDataTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		F03693851DCF780500B5CF88 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +135,7 @@
 				F03693911DCF780500B5CF88 /* AppDelegate.swift */,
 				F03693931DCF780500B5CF88 /* ViewController.swift */,
 				F007D5841DCFAED800E4BB80 /* Model */,
+				F007D5CB1DD0F56900E4BB80 /* Controllers */,
 				F03693951DCF780500B5CF88 /* Main.storyboard */,
 				F03693981DCF780500B5CF88 /* Assets.xcassets */,
 				F036939A1DCF780500B5CF88 /* LaunchScreen.storyboard */,
@@ -296,6 +307,7 @@
 				F007D5C91DCFEF6200E4BB80 /* Notebook+CoreDataClass.swift in Sources */,
 				F007D5861DCFAF1100E4BB80 /* CoreDataStack.swift in Sources */,
 				F007D5C81DCFEF6200E4BB80 /* Note+CoreDataProperties.swift in Sources */,
+				F007D5CD1DD0F8BA00E4BB80 /* CoreDataTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
