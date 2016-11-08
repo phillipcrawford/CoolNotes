@@ -1,9 +1,9 @@
 //
 //  CoreDataStack.swift
+//  CoolNotes
 //
-//
-//  Created by Fernando Rodríguez Romero on 21/02/16.
-//  Copyright © 2016 udacity.com. All rights reserved.
+//  Created by Phillip Crawford on 11/6/16.
+//  Copyright © 2016 Phillip Crawford. All rights reserved.
 //
 
 import CoreData
