@@ -26,12 +26,12 @@ class NotebooksViewController: CoreDataTableViewController {
         let stack = delegate.stack
         
         // Create a fetchrequest
-        let fr = NSFetchRequest(entityName: "Notebook")
+        let fr = NSFetchRequest<NSFetchRequestResult>(entityName: "Notebook")
         fr.sortDescriptors = [NSSortDescriptor(key: "name", ascending: true),
                               NSSortDescriptor(key: "creationDate", ascending: false)]
         
         // Create the FetchedResultsController
-        fetchedResultsController = NSFetchedResultsController(fetchRequest: fr, managedObjectContext: stack.context, sectionNameKeyPath: nil, cacheName: nil)
+        fetchedResultsController = NSFetchedResultsController(fetchRequest: fr , managedObjectContext: stack!.context, sectionNameKeyPath: nil, cacheName: nil)
     }
     
     // MARK: TableView Data Source
@@ -44,7 +44,7 @@ class NotebooksViewController: CoreDataTableViewController {
         // use.
         
         // Find the right notebook for this indexpath
-        let nb = fetchedResultsController!.objectAtIndexPath(indexPath) as! Notebook
+        let nb = fetchedResultsController!.object(at: indexPath) as! Notebook
         
         // Create the cell
         let cell = tableView.dequeueReusableCell(withIdentifier: "NotebookCell", for: indexPath)

@@ -17,6 +17,6 @@ extension Notebook {
 
     @NSManaged public var creationDate: NSDate?
     @NSManaged public var name: String?
-    @NSManaged public var notes: Note?
+    @NSManaged public var notes: [Note]?
 
 }
